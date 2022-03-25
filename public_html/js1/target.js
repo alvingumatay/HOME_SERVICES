@@ -1,0 +1,15 @@
+$(document).ready(function(){
+			$("#target").hide();
+			$("#s_target").click(function(){
+				$("#target").fadeIn();
+				$("#s_target").hide();
+				$("#ta").slideUp();
+				$("#h_target").show();
+			});
+			$("#h_target").click(function(){
+				$("#target").fadeOut();
+				$("#s_target").show();
+				$("#h_target").hide();
+				$("#ta").slideDown();
+			});
+		});

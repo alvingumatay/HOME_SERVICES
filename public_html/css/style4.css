@@ -1,0 +1,24 @@
+*{
+	box-sizing: border-box;
+}
+body {
+font-family: Arial, Helvetica, Sans-serif;	
+}
+.clsDiv {
+    border-radius: 5px;
+	background-color:#b11919;
+	padding:20px;
+	margin: auto;
+	width: 50%; 
+}
+.clsTxt {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+
+
+}
